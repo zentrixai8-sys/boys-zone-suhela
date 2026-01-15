@@ -1,9 +1,9 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Star, Truck, ShieldCheck, Zap, ChevronRight, PlayCircle, MoveDown } from 'lucide-react';
-import { PRODUCTS } from '../data';
-import { Product } from '../types';
+import { ArrowRight, Star, Truck, ShieldCheck, Zap, PlayCircle, MoveDown } from 'lucide-react';
+import { PRODUCTS } from '../data.ts';
+import { Product } from '../types.ts';
 
 const ProductCard: React.FC<{ product: Product }> = ({ product }) => (
   <div className="group relative bg-white rounded-3xl p-3 transition-all duration-500 hover:shadow-[0_20px_50px_rgba(0,0,0,0.08)]">

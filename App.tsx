@@ -4,19 +4,18 @@ import { HashRouter as Router, Routes, Route, Link, useLocation } from 'react-ro
 import { 
   ShoppingBag, Menu, X, User, Search, 
   Heart, Facebook, Instagram, Twitter, 
-  Github, ChevronRight, MapPin, Phone, 
-  Mail, ArrowRight, Sun, Moon, Sparkles
+  ArrowRight
 } from 'lucide-react';
-import { CartProvider, useCart } from './CartContext';
-import Home from './pages/Home';
-import Shop from './pages/Shop';
-import ProductDetail from './pages/ProductDetail';
-import Cart from './pages/Cart';
-import Checkout from './pages/Checkout';
-import About from './pages/About';
-import Contact from './pages/Contact';
-import Auth from './pages/Auth';
-import NotFound from './pages/NotFound';
+import { CartProvider, useCart } from './CartContext.tsx';
+import Home from './pages/Home.tsx';
+import Shop from './pages/Shop.tsx';
+import ProductDetail from './pages/ProductDetail.tsx';
+import Cart from './pages/Cart.tsx';
+import Checkout from './pages/Checkout.tsx';
+import About from './pages/About.tsx';
+import Contact from './pages/Contact.tsx';
+import Auth from './pages/Auth.tsx';
+import NotFound from './pages/NotFound.tsx';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
