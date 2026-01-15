@@ -1,0 +1,7 @@
+{
+  "name": "Copy of The Boys Zone",
+  "description": "A premium men's fashion e-commerce platform featuring modern styles, seamless shopping experience, and AI-powered style recommendations.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
